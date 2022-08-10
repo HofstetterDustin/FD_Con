@@ -1,0 +1,44 @@
+#CRT1 {
+    padding: 2px;
+
+}
+
+
+.row1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.row2a {
+    padding-top: 20px;
+}
+
+.row2b {
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.r3a {
+    padding-top: 20px;
+}
+
+.r3b {
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    margin: auto;
+    text-align: center;
+}
+
+.dA .dB .dC .dD {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
