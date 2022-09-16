@@ -6,3 +6,9 @@ C2 panel layout is constructed.
 JS file for functionality is not completed.
 Index.html file is laid out, but not completed.
 Github repo needs to be created before moving forward. Work is not uploaded.
+
+09-16-2022
+Added sub-directories. 
+Connected index to sub-directories. 
+Sub-directories are not connected to the panels.
+Sub-directories are currently in Bootstrap format.
