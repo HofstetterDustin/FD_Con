@@ -16,30 +16,60 @@
 <body>
 
     <head>
-        <nav>navigation bar under construction</nav>
+        <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="/index.html" class="nav-item nav-link text-danger disabled">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/PanL1.html" class="nav-item nav-link text-info">L1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/PanL2.html" class="nav-item nav-link text-info">L2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/PanC2.html" class="nav-item nav-link text-info">C2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/PanC3.html" class="nav-item nav-link text-info">C3</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/PanR2.html" class="nav-item nav-link text-info">R2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/PanR1.html" class="nav-item nav-link text-info">R1</a>
+                </li>
+            </ul>
+        </nav>
     </head>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md">L1</div>
-            <div class="col-sm">L2</div>
-            <div class="col-lg">C2
-                <div class="row">
-                    <div class="col-md" id="C2A1">35V73A2A1</div>
-                    <div class="col-lg" id="C2A2" onload=dpContent()>35V73A2A2</div>
-                    <div class="col-md" id="C2A3">35V73A2A3</div>
-                </div>
-                <div class="row">C3
-                    <div class="col-12" id="C3A">35V73A3A1</div>
-                </div>
-                <div class="row">
-                    <div class="col-12" id="C3B">35V73A3A7</div>
-                </div>
-                <div class="row">
-                    <div class="col-12" id="C3C">35V23A3A5</div>
-                </div>
+            <div class="col-md">
+                <ul>L1</ul>
+                <li>#</li>
             </div>
-            <div class="col-sm">R2</div>
-            <div class="col-md">R1</div>
+            <div class="col-sm">
+                <ul>L2</ul>
+                <li>#</li>
+            </div>
+            <div class="col-lg">
+                <ul>C2</ul>
+                <li>35V73A2A1</li>
+                <li>35V73A2A2</li>
+                <li>35V73A2A3</li>
+                <ul>C3</ul>
+                <li>35V73A3A1</li>
+                <li>35V73A3A7</li>
+                <li>35V23A3A5</li>
+            </div>
+            <div class="col-sm">
+                <ul>R2</ul>
+                <li>#</li>
+            </div>
+            <div class="col-md">
+                <ul>R1</ul>
+                <li>#</li>
+            </div>
         </div>
     </div>
     <footer>
