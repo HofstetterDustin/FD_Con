@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel L1</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -39,7 +44,127 @@
     </head>
 
     <H1>Panel L1 - Under Construction</H1>
-    <a href="/index.html">Home</a>
+    <h5>31V73A1A2</h5>
+    <div class="row 1">
+        <div class="col-sm">
+            <p id="hSepA">READ OUT</p>
+            <div class="btn-group" role="group" aria-label="HUMIDITY SEP A">
+                <button type="button" class="btn btn-outline-success" id="hSepAOn">ON</button>
+                <button type="button" class="btn btn-outline-secondary" id="hSepAOff">OFF</button>
+            </div>
+        </div>
+        <div class="col-sm">
+            <p id="humiditySepSwA">READ OUT</p>
+            <button>HUMIDITY SEP B S2</button>
+        </div>
+        <div class="col-sm">
+            <p id="humiditySepSwA">READ OUT</p>
+            <button>WASTE H20 CABIN TEMP R1</button>
+        </div>
+        <div class="col-sm">
+            <p id="humiditySepSwA">READ OUT</p>
+            <button>CABIN TEMP CNTLR S11</button>
+        </div>
+        <div class="col-sm">
+            <p id="humiditySepSwA">READ OUT</p>
+            <button>CABIN FAN A S17</button>
+        </div>
+        <div class="col-sm">
+            <p id="humiditySepSwA">READ OUT</p>
+            <button>CABIN FAN B S18</button>
+        </div>
+    </div>
+    <div class="row 2">
+        <div class="col-sm">
+            <button>IMU FAN A S12</button>
+            <button>IMU FAN B S13</button>
+            <button>IMU FAN C S14</button>
+            <button>H2O PUMP LOOP 1 S3</button>
+            <button>H2O PUMP LOOP 1 S44</button>
+            <button>H2O PUMP LOOP 2 S6</button>
+        </div>
+    </div>
+    <div class="row 3">
+        <div class="col-sm">
+            <button>LOOP 1 BY PASS MAN S4</button>
+            <button>LOOP 1 BY PASS MODE S5</button>
+            <button>LOOP 2 BY PASS MAN S7</button>
+            <button>LOOP 2 BY PASS MODE S8</button>
+            <button>FLOW PROP VLV LOOP 1 S21</button>
+            <button>FLOW PROP VLV LOOP 2 S22</button>
+        </div>
+    </div>
+    <div class="row 4">
+        <div class="col-sm">
+            <button>AV BAY 1 FAN A S9</button>
+            <button>AV BAY 1 FAN B S10</button>
+            <button>AV BAY 2 FAN A S15</button>
+            <button>AV BAY 2 FAN B S16</button>
+            <button>AV BAY 3 FAN A S19</button>
+            <button>AV BAY 3 FAN B S20</button>
+        </div>
+    </div>
+    <div class="row 5">
+        <div class="col-sm">
+            <button>FREON PUMP LOOP 1 S23</button>
+            <button>FREON PUMP LOOP 2 S24</button>
+            <button>FLASH EVAP CONTROLLER PRI A S31</button>
+            <button>FLASH EVAP CONTROLLER PRI B S32</button>
+            <button>FLASH EVAP CONTROLLER SEC A SPLY S45</button>
+            <button>FLASH EVAP CONTROLLER SEC B OFF S33</button>
+        </div>
+    </div>
+    <div class="row 6">
+        <div class="col-sm">
+            <button>HI LOAD EVAP S34</button>
+            <button>TOPPING EVAPORATOR HEATER NOZZLE L S37</button>
+            <button>TOPPING EVAPORATOR HEATER NOZZLE R S38</button>
+            <button>TOPPING EVAPORATOR HEATER DUCT S39</button>
+            <button>HI LOAD DUCT HEATER S41</button>
+            <button>H2O ALT PRESS S28</button>
+        </div>
+    </div>
+    <div class="row 7">
+        <div class="col-sm">
+            <button>RAD CONTROLLER OUT TEMP S25</button>
+            <button>RAD CONTROLLER LOOP 1 S26</button>
+            <button>RAD CONTROLLER LOOP 2 S27</button>
+            <button>MAN SEL RAD FLOW S29</button>
+            <button>MAN SEL RAD FLOW S30</button>
+        </div>
+    </div>
+    <div class="row 8">
+        <div class="col-sm">
+            <button>MODE MAN S35</button>
+            <button>MODE MAN S36</button>
+            <button>NH3 CONTROLLER A S42</button>
+            <button>NH3 CONTROLLER B S43</button>
+        </div>
+    </div>
+    <div class="row 9">
+        <div class="col-sm">
+            <button>FIRE SUPPRESSION AV BAY 1 S1</button>
+            <button>FIRE SUPPRESSION AV BAY 2 S2</button>
+            <button>FIRE SUPPRESSION AV BAY 3 S3</button>
+            <button>SENSOR RESET S7</button>
+            <button>CIRCUIT TEST S8</button>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="/humiditySepSw.js"></script>
+    <script src="/btnFn.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -1,3 +1,10 @@
 .nav-item {
     color: whitesmoke;
 }
+
+.foot {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+}
