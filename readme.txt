@@ -12,3 +12,8 @@ Added sub-directories.
 Connected index to sub-directories. 
 Sub-directories are not connected to the panels.
 Sub-directories are currently in Bootstrap format.
+
+09-17-2022
+Added humidity SEP A object.
+Working model of on/off function for voltage.
+Using Bootstrap button group for on/off action.
