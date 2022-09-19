@@ -42,117 +42,459 @@
             </ul>
         </nav>
     </head>
+    <div class="container-fluid">
+        <H1>Panel L1 - Under Construction</H1>
+        <p>31V73A1A2</p>
+        <div class="row 1">
+            <div class="col-sm">
+                <!--Humidity SEP A-->
+                <h6 id="hSep">Humidity SEP A</h6>
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="hSepAV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="hSepAI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="hSepAR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="HUMIDITY SEP A">
+                    <button type="button" class="btn btn-outline-success" id="hSepAOn">ON</button>
+                    <button type="button" class="btn btn-outline-secondary" id="hSepAOff">OFF</button>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!--Humidity SEP B-->
+                <h6 id="humiditySepSwB">Humidity SEP B</h6>
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="hSepBV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="hSepBI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="hSepBR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="HUMIDITY SEP B">
+                    <button type="button" class="btn btn-outline-success" id="hSepBOn">ON</button>
+                    <button type="button" class="btn btn-outline-secondary" id="hSepBOff">OFF</button>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!--RADIO BUTTON NOT DONE-->
+                <p id="humiditySepSwA">Waste H2O Cabin Temp</p>
 
-    <H1>Panel L1 - Under Construction</H1>
-    <h5>31V73A1A2</h5>
-    <div class="row 1">
-        <div class="col-sm">
-            <p id="hSepA">READ OUT</p>
-            <div class="btn-group" role="group" aria-label="HUMIDITY SEP A">
-                <button type="button" class="btn btn-outline-success" id="hSepAOn">ON</button>
-                <button type="button" class="btn btn-outline-secondary" id="hSepAOff">OFF</button>
+
+                <div class="btn-group" role="group" aria-label="WASTE H2O CABIN TEMP">
+                    <button type="button" class="btn btn-outline-info" id="">COOL</button>
+                    <button type="button" class="btn btn-outline-info" id="">HOT</button>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!--Cabin Temp Cntlr-->
+                <h6 id="Cabin Temp cntlr">CABIN TEMP CNTLR</h6>
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CTCV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CTCI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CTCR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="WASTE H2O CABIN TEMP">
+                    <button type="button" class="btn btn-outline-success" id="CTCOn">ON</button>
+                    <button type="button" class="btn btn-secondary" id="CTCNorm">NORM</button>
+                    <button type="button" class="btn btn-outline-secondary" id="CTCOff">OFF</button>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!--Cabin Fan A-->
+                <h6 id="cabinFanA">CABIN FAN A</h6>
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CFanAV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CFanAI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CFanAR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="Cabin Fan A">
+                    <button type="button" class="btn btn-outline-success" id="CFanAOn">ON</button>
+                    <button type="button" class="btn btn-outline-secondary" id="CFanAOff">OFF</button>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!--Cabin Fan B-->
+                <h6 id="humiditySepSwA">CABIN FAN B</h6>
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CFanBV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CFanBI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="CFanBR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="CABIN FAN B">
+                    <button type="button" class="btn btn-outline-success" id="CFanBOn">ON</button>
+                    <button type="button" class="btn btn-outline-secondary" id="CFanBOff">OFF</button>
+                </div>
             </div>
         </div>
-        <div class="col-sm">
-            <p id="humiditySepSwA">READ OUT</p>
-            <button>HUMIDITY SEP B S2</button>
+        <!--Label Row-->
+        <div class="row 2">
+            <div class="col-6">
+                <h6>IMU</h6>
+            </div>
+            <div class="col-6">
+                <h6>H2O PUMP</h6>
+            </div>
         </div>
-        <div class="col-sm">
-            <p id="humiditySepSwA">READ OUT</p>
-            <button>WASTE H20 CABIN TEMP R1</button>
+        <div class="row 2a">
+            <!--IMU FAN A-->
+            <div class="col-sm">
+                <h6>IMU FAN A</h6>
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanAV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanAI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanAR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="IMU FAN A">
+                    <button type="button" class="btn btn-outline-success" id="IMUFanAOn">ON</button>
+                    <button type="button" class="btn btn-outline-secondary" id="IMUFanAOff">OFF</button>
+                </div>
+            </div>
+            <!--IMU FAN B-->
+            <div class="col-sm">
+                <h6>IMU FAN B</h6>
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanBV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanBI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanBR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="IMU FAN B">
+                    <button type="button" class="btn btn-outline-success" id="IMUFanBOn">ON</button>
+                    <button type="button" class="btn btn-outline-secondary" id="IMUFanBOff">OFF</button>
+                </div>
+            </div>
+            <!--IMU FAN C-->
+            <div class="col-sm">
+                <h6>IMU FAN C</h6>
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="IMU FAN C">
+                    <button type="button" class="btn btn-outline-success" id="IMUFanCAOn">ON</button>
+                    <button type="button" class="btn btn-outline-secondary" id="IMUFanCOff">OFF</button>
+                </div>
+            </div>
+            <!--S3-->
+            <div class="col-sm">
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="IMU FAN C">
+                    <button type="button" class="btn btn-outline-success" id="IMUFanCAOn">GPC</button>
+                    <button type="button" class="btn btn-outline-secondary" id="">OFF</button>
+                    <button type="button" class="btn btn-outline-secondary" id="IMUFanCOff">ON</button>
+                </div>
+            </div>
+            <!--S44-->
+            <div class="col-sm">
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="IMU FAN C">
+                    <button type="button" class="btn btn-outline-success" id="">A</button>
+                    <button type="button" class="btn btn-outline-secondary" id="">B</button>
+                </div>
+            </div>
+            <!--S6-->
+            <div class="col-sm">
+                <div class="row 1a">
+                    <div class="col-sm">
+                        <h6>Voltage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCV">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1b">
+                    <div class="col-sm">
+                        <h6>Amperage:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCI">PH</h6>
+                    </div>
+                </div>
+                <div class="row 1c">
+                    <div class="col-sm">
+                        <h6>Resistance:</h6>
+                    </div>
+                    <div class="col-sm">
+                        <h6 id="IMUFanCR">PH</h6>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="IMU FAN C">
+                    <button type="button" class="btn btn-outline-success" id="">GPC</button>
+                    <button type="button" class="btn btn-outline-secondary" id="">OFF</button>
+                    <button type="button" class="btn btn-outline-secondary" id="">ON</button>
+                </div>
+            </div>
         </div>
-        <div class="col-sm">
-            <p id="humiditySepSwA">READ OUT</p>
-            <button>CABIN TEMP CNTLR S11</button>
+
+        <div class="row 3">
+            <div class="col-sm">
+                <button>LOOP 1 BY PASS MAN S4</button>
+                <button>LOOP 1 BY PASS MODE S5</button>
+                <button>LOOP 2 BY PASS MAN S7</button>
+                <button>LOOP 2 BY PASS MODE S8</button>
+                <button>FLOW PROP VLV LOOP 1 S21</button>
+                <button>FLOW PROP VLV LOOP 2 S22</button>
+            </div>
         </div>
-        <div class="col-sm">
-            <p id="humiditySepSwA">READ OUT</p>
-            <button>CABIN FAN A S17</button>
+        <div class="row 4">
+            <div class="col-sm">
+                <button>AV BAY 1 FAN A S9</button>
+                <button>AV BAY 1 FAN B S10</button>
+                <button>AV BAY 2 FAN A S15</button>
+                <button>AV BAY 2 FAN B S16</button>
+                <button>AV BAY 3 FAN A S19</button>
+                <button>AV BAY 3 FAN B S20</button>
+            </div>
         </div>
-        <div class="col-sm">
-            <p id="humiditySepSwA">READ OUT</p>
-            <button>CABIN FAN B S18</button>
+        <div class="row 5">
+            <div class="col-sm">
+                <button>FREON PUMP LOOP 1 S23</button>
+                <button>FREON PUMP LOOP 2 S24</button>
+                <button>FLASH EVAP CONTROLLER PRI A S31</button>
+                <button>FLASH EVAP CONTROLLER PRI B S32</button>
+                <button>FLASH EVAP CONTROLLER SEC A SPLY S45</button>
+                <button>FLASH EVAP CONTROLLER SEC B OFF S33</button>
+            </div>
         </div>
-    </div>
-    <div class="row 2">
-        <div class="col-sm">
-            <button>IMU FAN A S12</button>
-            <button>IMU FAN B S13</button>
-            <button>IMU FAN C S14</button>
-            <button>H2O PUMP LOOP 1 S3</button>
-            <button>H2O PUMP LOOP 1 S44</button>
-            <button>H2O PUMP LOOP 2 S6</button>
+        <div class="row 6">
+            <div class="col-sm">
+                <button>HI LOAD EVAP S34</button>
+                <button>TOPPING EVAPORATOR HEATER NOZZLE L S37</button>
+                <button>TOPPING EVAPORATOR HEATER NOZZLE R S38</button>
+                <button>TOPPING EVAPORATOR HEATER DUCT S39</button>
+                <button>HI LOAD DUCT HEATER S41</button>
+                <button>H2O ALT PRESS S28</button>
+            </div>
         </div>
-    </div>
-    <div class="row 3">
-        <div class="col-sm">
-            <button>LOOP 1 BY PASS MAN S4</button>
-            <button>LOOP 1 BY PASS MODE S5</button>
-            <button>LOOP 2 BY PASS MAN S7</button>
-            <button>LOOP 2 BY PASS MODE S8</button>
-            <button>FLOW PROP VLV LOOP 1 S21</button>
-            <button>FLOW PROP VLV LOOP 2 S22</button>
+        <div class="row 7">
+            <div class="col-sm">
+                <button>RAD CONTROLLER OUT TEMP S25</button>
+                <button>RAD CONTROLLER LOOP 1 S26</button>
+                <button>RAD CONTROLLER LOOP 2 S27</button>
+                <button>MAN SEL RAD FLOW S29</button>
+                <button>MAN SEL RAD FLOW S30</button>
+            </div>
         </div>
-    </div>
-    <div class="row 4">
-        <div class="col-sm">
-            <button>AV BAY 1 FAN A S9</button>
-            <button>AV BAY 1 FAN B S10</button>
-            <button>AV BAY 2 FAN A S15</button>
-            <button>AV BAY 2 FAN B S16</button>
-            <button>AV BAY 3 FAN A S19</button>
-            <button>AV BAY 3 FAN B S20</button>
+        <div class="row 8">
+            <div class="col-sm">
+                <button>MODE MAN S35</button>
+                <button>MODE MAN S36</button>
+                <button>NH3 CONTROLLER A S42</button>
+                <button>NH3 CONTROLLER B S43</button>
+            </div>
         </div>
-    </div>
-    <div class="row 5">
-        <div class="col-sm">
-            <button>FREON PUMP LOOP 1 S23</button>
-            <button>FREON PUMP LOOP 2 S24</button>
-            <button>FLASH EVAP CONTROLLER PRI A S31</button>
-            <button>FLASH EVAP CONTROLLER PRI B S32</button>
-            <button>FLASH EVAP CONTROLLER SEC A SPLY S45</button>
-            <button>FLASH EVAP CONTROLLER SEC B OFF S33</button>
-        </div>
-    </div>
-    <div class="row 6">
-        <div class="col-sm">
-            <button>HI LOAD EVAP S34</button>
-            <button>TOPPING EVAPORATOR HEATER NOZZLE L S37</button>
-            <button>TOPPING EVAPORATOR HEATER NOZZLE R S38</button>
-            <button>TOPPING EVAPORATOR HEATER DUCT S39</button>
-            <button>HI LOAD DUCT HEATER S41</button>
-            <button>H2O ALT PRESS S28</button>
-        </div>
-    </div>
-    <div class="row 7">
-        <div class="col-sm">
-            <button>RAD CONTROLLER OUT TEMP S25</button>
-            <button>RAD CONTROLLER LOOP 1 S26</button>
-            <button>RAD CONTROLLER LOOP 2 S27</button>
-            <button>MAN SEL RAD FLOW S29</button>
-            <button>MAN SEL RAD FLOW S30</button>
-        </div>
-    </div>
-    <div class="row 8">
-        <div class="col-sm">
-            <button>MODE MAN S35</button>
-            <button>MODE MAN S36</button>
-            <button>NH3 CONTROLLER A S42</button>
-            <button>NH3 CONTROLLER B S43</button>
-        </div>
-    </div>
-    <div class="row 9">
-        <div class="col-sm">
-            <button>FIRE SUPPRESSION AV BAY 1 S1</button>
-            <button>FIRE SUPPRESSION AV BAY 2 S2</button>
-            <button>FIRE SUPPRESSION AV BAY 3 S3</button>
-            <button>SENSOR RESET S7</button>
-            <button>CIRCUIT TEST S8</button>
+        <div class="row 9">
+            <div class="col-sm">
+                <button>FIRE SUPPRESSION AV BAY 1 S1</button>
+                <button>FIRE SUPPRESSION AV BAY 2 S2</button>
+                <button>FIRE SUPPRESSION AV BAY 3 S3</button>
+                <button>SENSOR RESET S7</button>
+                <button>CIRCUIT TEST S8</button>
+            </div>
         </div>
     </div>
 
     <!-- Optional JavaScript -->
-    <script src="/humiditySepSw.js"></script>
+    <script src="/humiditySepA.js"></script>
+    <script src="/humiditySepB.js"></script>
+    <script src="/cabinTempCntlr.js"></script>
+    <script src="/cabinFanA.js"></script>
+    <script src="/cabinFanB.js"></script>
     <script src="/btnFn.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
